@@ -1,0 +1,8 @@
+{
+  "tailwindCSS.experimental.classRegex": [
+    // so we can put `/* tw */ ` in front of a JS/TS string and get Tailwind Intellisense in custom spots
+    "/\\* tw \\*/ '([^']*)",
+    "/\\* tw \\*/ `([^`]*)",
+    "/\\* tw \\*/ \"([^\"]*)",
+  ]
+}
